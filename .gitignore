@@ -1,0 +1,42 @@
+############################
+# MkDocs
+############################
+site/                 # static site output
+.cache/               # build caches (varies by plugins)
+mkdocs.yml
+
+############################
+# Python
+############################
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+############################
+# Editors & IDEs
+############################
+.vscode/
+.idea/
+*.code-workspace
+
+############################
+# OS junk
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Logs & temp
+############################
+*.log
+*.tmp
+~$*
